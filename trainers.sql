@@ -5,7 +5,7 @@ use assignment2;
 
 drop table if exists trainers;
 create table trainers(
-	id int unsigned auto_increment not null,
+    id int unsigned auto_increment not null,
     firstname varchar(100) not null,
     lastname varchar(100) not null,
     tsubject text not null, 
